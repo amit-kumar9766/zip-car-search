@@ -22,7 +22,7 @@ export const VEHICLE_DATA = [
     mileage: 8000,
     price: 26000,
     image:
-      "https://images.unsplash.com/photo-1706495227612-fde52c357c69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&h=300&fit=crop",
     zipCode: "10001",
   },
   {
@@ -49,7 +49,7 @@ export const VEHICLE_DATA = [
     price: 45000,
     image:
       "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop",
-    zipCode: "90210",
+    zipCode: "10001",
   },
   {
     id: 5,
@@ -101,7 +101,7 @@ export const VEHICLE_DATA = [
     price: 32000,
     image:
       "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400&h=300&fit=crop",
-    zipCode: "33101",
+    zipCode: "90210",
   },
   {
     id: 9,
@@ -113,8 +113,8 @@ export const VEHICLE_DATA = [
     mileage: 22000,
     price: 29000,
     image:
-      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&h=300&fit=crop",
-    zipCode: "33101",
+      "https://images.unsplash.com/photo-1590362891991-f776e747a588?w=400&h=300&fit=crop",
+    zipCode: "90210",
   },
   {
     id: 10,
@@ -127,7 +127,7 @@ export const VEHICLE_DATA = [
     price: 39000,
     image:
       "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=400&h=300&fit=crop",
-    zipCode: "33101",
+    zipCode: "90210",
   },
   {
     id: 11,
@@ -152,7 +152,7 @@ export const VEHICLE_DATA = [
     mileage: 9000,
     price: 27000,
     image:
-      "https://images.unsplash.com/photo-1618158549153-0b6d11f5c5c4?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=400&h=300&fit=crop",
     zipCode: "78701",
   },
   {
@@ -178,8 +178,8 @@ export const VEHICLE_DATA = [
     mileage: 11000,
     price: 48000,
     image:
-      "https://images.unsplash.com/photo-1549399429-3c1dc9bfe1b0?w=400&h=300&fit=crop",
-    zipCode: "98101",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=300&fit=crop",
+    zipCode: "78701",
   },
   {
     id: 15,
@@ -191,8 +191,8 @@ export const VEHICLE_DATA = [
     mileage: 6000,
     price: 33000,
     image:
-      "https://images.unsplash.com/photo-1549399429-3c1dc9bfe1b0?w=400&h=300&fit=crop",
-    zipCode: "98101",
+      "https://images.unsplash.com/photo-1581540222194-0def2dda95b8?w=400&h=300&fit=crop",
+    zipCode: "78701",
   },
   {
     id: 16,
@@ -205,7 +205,7 @@ export const VEHICLE_DATA = [
     price: 23000,
     image:
       "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=400&h=300&fit=crop",
-    zipCode: "98101",
+    zipCode: "78701",
   },
   {
     id: 17,
@@ -217,7 +217,7 @@ export const VEHICLE_DATA = [
     mileage: 19000,
     price: 24500,
     image:
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=400&h=300&fit=crop",
     zipCode: "60601",
   },
   {
@@ -230,7 +230,7 @@ export const VEHICLE_DATA = [
     mileage: 5500,
     price: 31000,
     image:
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?w=400&h=300&fit=crop",
     zipCode: "60601",
   },
   {
@@ -243,7 +243,7 @@ export const VEHICLE_DATA = [
     mileage: 13000,
     price: 37000,
     image:
-      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=400&h=300&fit=crop",
     zipCode: "60601",
   },
   {
@@ -256,7 +256,7 @@ export const VEHICLE_DATA = [
     mileage: 21000,
     price: 34000,
     image:
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?w=400&h=300&fit=crop",
     zipCode: "30301",
   },
   {
@@ -269,7 +269,7 @@ export const VEHICLE_DATA = [
     mileage: 4000,
     price: 44000,
     image:
-      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1563720223185-11003d516935?w=400&h=300&fit=crop",
     zipCode: "30301",
   },
   {
@@ -282,7 +282,7 @@ export const VEHICLE_DATA = [
     mileage: 8000,
     price: 52000,
     image:
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&h=300&fit=crop",
     zipCode: "30301",
   },
   {
@@ -295,7 +295,7 @@ export const VEHICLE_DATA = [
     mileage: 7500,
     price: 30000,
     image:
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=400&h=300&fit=crop",
     zipCode: "85001",
   },
   {
@@ -308,7 +308,7 @@ export const VEHICLE_DATA = [
     mileage: 17000,
     price: 46000,
     image:
-      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=300&fit=crop",
     zipCode: "85001",
   },
   {
@@ -321,7 +321,7 @@ export const VEHICLE_DATA = [
     mileage: 12000,
     price: 65000,
     image:
-      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=300&fit=crop",
     zipCode: "85001",
   },
   {
@@ -334,8 +334,8 @@ export const VEHICLE_DATA = [
     mileage: 3000,
     price: 58000,
     image:
-      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=300&fit=crop",
-    zipCode: "02101",
+      "https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?w=400&h=300&fit=crop",
+    zipCode: "85001",
   },
   {
     id: 27,
@@ -347,22 +347,10 @@ export const VEHICLE_DATA = [
     mileage: 16000,
     price: 47000,
     image:
-      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=300&fit=crop",
-    zipCode: "02101",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?w=400&h=300&fit=crop",
+    zipCode: "85001",
   },
-  {
-    id: 28,
-    make: "Land Rover",
-    model: "Discovery",
-    trim: "SE",
-    year: 2022,
-    color: "Green",
-    mileage: 10000,
-    price: 54000,
-    image:
-      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=300&fit=crop",
-    zipCode: "02101",
-  },
+
   {
     id: 29,
     make: "Buick",
@@ -373,7 +361,7 @@ export const VEHICLE_DATA = [
     mileage: 5000,
     price: 42000,
     image:
-      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=400&h=300&fit=crop",
     zipCode: "80201",
   },
   {
@@ -386,7 +374,7 @@ export const VEHICLE_DATA = [
     mileage: 23000,
     price: 38000,
     image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=400&h=300&fit=crop",
     zipCode: "80201",
   },
   {
@@ -399,7 +387,7 @@ export const VEHICLE_DATA = [
     mileage: 15000,
     price: 43000,
     image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=300&fit=crop",
     zipCode: "80201",
   },
   {
@@ -412,8 +400,8 @@ export const VEHICLE_DATA = [
     mileage: 6500,
     price: 28000,
     image:
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400&h=300&fit=crop",
-    zipCode: "19101",
+      "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=400&h=300&fit=crop",
+    zipCode: "80201",
   },
   {
     id: 33,
@@ -425,8 +413,8 @@ export const VEHICLE_DATA = [
     mileage: 18000,
     price: 36000,
     image:
-      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop",
-    zipCode: "19101",
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=400&h=300&fit=crop",
+    zipCode: "80201",
   },
   {
     id: 34,
@@ -438,8 +426,8 @@ export const VEHICLE_DATA = [
     mileage: 11000,
     price: 33000,
     image:
-      "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=400&h=300&fit=crop",
-    zipCode: "19101",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+    zipCode: "80201",
   },
   {
     id: 35,
@@ -451,7 +439,7 @@ export const VEHICLE_DATA = [
     mileage: 4000,
     price: 58000,
     image:
-      "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=400&h=300&fit=crop",
     zipCode: "94101",
   },
   {
@@ -464,7 +452,7 @@ export const VEHICLE_DATA = [
     mileage: 2000,
     price: 78000,
     image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=400&h=300&fit=crop",
     zipCode: "94101",
   },
   {
@@ -477,7 +465,7 @@ export const VEHICLE_DATA = [
     mileage: 1500,
     price: 89000,
     image:
-      "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?w=400&h=300&fit=crop",
     zipCode: "94101",
   },
   {
@@ -490,7 +478,7 @@ export const VEHICLE_DATA = [
     mileage: 9000,
     price: 46000,
     image:
-      "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?w=400&h=300&fit=crop",
     zipCode: "37201",
   },
   {
@@ -503,7 +491,7 @@ export const VEHICLE_DATA = [
     mileage: 14000,
     price: 39000,
     image:
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
     zipCode: "37201",
   },
   {
@@ -516,7 +504,7 @@ export const VEHICLE_DATA = [
     mileage: 7000,
     price: 72000,
     image:
-      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&h=300&fit=crop",
     zipCode: "37201",
   },
 ];

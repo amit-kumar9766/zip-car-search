@@ -14,3 +14,6 @@ export const validateZipCode = (zip: string) => {
   const zipRegex = /^\d{5}$/;
   return zipRegex.test(zip);
 };
+
+export const capitalizeField = (field: string) =>
+  field.charAt(0).toUpperCase() + field.slice(1);

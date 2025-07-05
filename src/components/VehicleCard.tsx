@@ -1,16 +1,9 @@
 import React from "react";
 import { Palette, Gauge } from "lucide-react";
 import type { Vehicle } from "../utils/constants";
+import { formatMileage, formatPrice } from "../utils/helpers";
 
 export const VehicleCard: React.FC<{ vehicle: Vehicle }> = ({ vehicle }) => {
-  const formatPrice = (price: number) =>
-    new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
-    }).format(price);
-  const formatMileage = (mileage: number) =>
-    new Intl.NumberFormat("en-US").format(mileage);
-
   return (
     <div className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
       <img
