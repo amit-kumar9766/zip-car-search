@@ -9,6 +9,7 @@ Built with **React**, **TypeScript**, and **Tailwind CSS**.
 
 **ZIP Code Search**  
 - Enter a ZIP code to find available vehicles in that area.
+- Available Zip Codes - (10001,85001,78701,60601,30301)
 
  **Filtering**  
 - Filter vehicles by **Make** and **Color**.

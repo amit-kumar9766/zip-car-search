@@ -1,10 +1,12 @@
+import React from "react";
 import { Header } from "./components/Header";
 import { SearchForm } from "./components/SearchForm";
 import { Filters } from "./components/Filters";
 import { Results } from "./components/Results";
+import { BackButton } from "./components/BackButton";
 import { useVehicles } from "./hooks/useVehicles";
 
-export default function App() {
+const App: React.FC = () => {
   const {
     zipCode,
     setZipCode,
@@ -25,29 +27,31 @@ export default function App() {
     resetSearch,
   } = useVehicles();
 
+  const hasActiveFilters = selectedMake || selectedColor;
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {isSearched ? (
           <>
-            <button
-              onClick={resetSearch}
-              className="mb-6 px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 transition"
-            >
-              ← Back to Search
-            </button>
-            <Filters
-              selectedMake={selectedMake}
-              setSelectedMake={setSelectedMake}
-              selectedColor={selectedColor}
-              setSelectedColor={setSelectedColor}
-              availableMakes={availableMakes}
-              availableColors={availableColors}
-              sortBy={sortBy}
-              sortOrder={sortOrder}
-              handleSort={handleSort}
-            />
+            <BackButton onBack={resetSearch} />
+
+            {/* Show filters if there are results or if filters are active */}
+            {(filteredVehicles.length || hasActiveFilters) && (
+              <Filters
+                selectedMake={selectedMake}
+                setSelectedMake={setSelectedMake}
+                selectedColor={selectedColor}
+                setSelectedColor={setSelectedColor}
+                availableMakes={availableMakes}
+                availableColors={availableColors}
+                sortBy={sortBy}
+                sortOrder={sortOrder}
+                handleSort={handleSort}
+              />
+            )}
+
             <Results
               filteredVehicles={filteredVehicles}
               searchedZip={searchedZip}
@@ -63,7 +67,9 @@ export default function App() {
             />
           </div>
         )}
-      </div>
+      </main>
     </div>
   );
-}
+};
+
+export default App;

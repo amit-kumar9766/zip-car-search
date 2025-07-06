@@ -34,7 +34,6 @@ export const SearchForm: React.FC<SearchFormProps> = ({
           className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           maxLength={5}
         />
-        {zipError && <p className="mt-1 text-sm text-red-600">{zipError}</p>}
       </div>
       <button
         onClick={handleSearch}
@@ -44,5 +43,6 @@ export const SearchForm: React.FC<SearchFormProps> = ({
         Search
       </button>
     </div>
+    {zipError && <p className="mt-1 text-sm text-red-600">{zipError}</p>}
   </div>
 );

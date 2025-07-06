@@ -32,14 +32,40 @@ export const useVehicles = () => {
     setSortBy("");
   };
 
+  const baseVehicles = useMemo<Vehicle[]>(() => {
+    if (!isSearched) return [];
+    return allVehicles.filter((v) => v.zipCode === searchedZip);
+  }, [searchedZip, isSearched]);
+
+  const availableMakes = useMemo<string[]>(() => {
+    if (!baseVehicles.length) return [];
+    let filteredVehicles = baseVehicles;
+    // If color is selected, filter vehicles by color first
+    if (selectedColor) {
+      filteredVehicles = baseVehicles.filter((v) => v.color === selectedColor);
+    }
+    return [...new Set(filteredVehicles.map((v) => v.make))].sort();
+  }, [baseVehicles, selectedColor]);
+
+  const availableColors = useMemo<string[]>(() => {
+    if (!baseVehicles.length) return [];
+    let filteredVehicles = baseVehicles;
+    // If make is selected, filter vehicles by make first
+    if (selectedMake) {
+      filteredVehicles = baseVehicles.filter((v) => v.make === selectedMake);
+    }
+    return [...new Set(filteredVehicles.map((v) => v.color))].sort();
+  }, [baseVehicles, selectedMake]);
+
   const filteredVehicles = useMemo<Vehicle[]>(() => {
     if (!isSearched) return [];
-    let filtered = allVehicles.filter((v) => v.zipCode === searchedZip);
-    if (selectedMake)
+    let filtered = baseVehicles;
+    if (selectedMake) {
       filtered = filtered.filter((v) => v.make === selectedMake);
-    if (selectedColor)
+    }
+    if (selectedColor) {
       filtered = filtered.filter((v) => v.color === selectedColor);
-
+    }
     if (sortBy) {
       filtered = [...filtered].sort((a, b) => {
         const aVal = a[sortBy];
@@ -50,24 +76,16 @@ export const useVehicles = () => {
         return 0;
       });
     }
+
     return filtered;
-  }, [searchedZip, selectedMake, selectedColor, sortBy, sortOrder, isSearched]);
-
-  const availableMakes = useMemo<string[]>(() => {
-    return [
-      ...new Set(
-        allVehicles.filter((v) => v.zipCode === searchedZip).map((v) => v.make)
-      ),
-    ].sort();
-  }, [searchedZip]);
-
-  const availableColors = useMemo<string[]>(() => {
-    return [
-      ...new Set(
-        allVehicles.filter((v) => v.zipCode === searchedZip).map((v) => v.color)
-      ),
-    ].sort();
-  }, [searchedZip]);
+  }, [
+    baseVehicles,
+    selectedMake,
+    selectedColor,
+    sortBy,
+    sortOrder,
+    isSearched,
+  ]);
 
   const handleSort = (field: SortableField): void => {
     if (sortBy === field) {
@@ -84,7 +102,7 @@ export const useVehicles = () => {
     setZipCode("");
     setSelectedMake("");
     setSelectedColor("");
-    setSortBy("price");
+    setSortBy("");
     setSortOrder("asc");
     setZipError("");
   };

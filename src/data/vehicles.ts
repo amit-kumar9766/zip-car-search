@@ -362,7 +362,7 @@ export const VEHICLE_DATA = [
     price: 42000,
     image:
       "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=400&h=300&fit=crop",
-    zipCode: "80201",
+    zipCode: "85001",
   },
   {
     id: 30,
@@ -375,7 +375,7 @@ export const VEHICLE_DATA = [
     price: 38000,
     image:
       "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=400&h=300&fit=crop",
-    zipCode: "80201",
+    zipCode: "85001",
   },
   {
     id: 31,
@@ -388,7 +388,7 @@ export const VEHICLE_DATA = [
     price: 43000,
     image:
       "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=300&fit=crop",
-    zipCode: "80201",
+    zipCode: "85001",
   },
   {
     id: 32,
@@ -401,7 +401,7 @@ export const VEHICLE_DATA = [
     price: 28000,
     image:
       "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=400&h=300&fit=crop",
-    zipCode: "80201",
+    zipCode: "85001",
   },
   {
     id: 33,
@@ -414,7 +414,7 @@ export const VEHICLE_DATA = [
     price: 36000,
     image:
       "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=400&h=300&fit=crop",
-    zipCode: "80201",
+    zipCode: "85001",
   },
   {
     id: 34,
@@ -427,7 +427,7 @@ export const VEHICLE_DATA = [
     price: 33000,
     image:
       "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-    zipCode: "80201",
+    zipCode: "85001",
   },
   {
     id: 35,
@@ -440,7 +440,7 @@ export const VEHICLE_DATA = [
     price: 58000,
     image:
       "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=400&h=300&fit=crop",
-    zipCode: "94101",
+    zipCode: "10001",
   },
   {
     id: 36,
@@ -453,7 +453,7 @@ export const VEHICLE_DATA = [
     price: 78000,
     image:
       "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=400&h=300&fit=crop",
-    zipCode: "94101",
+    zipCode: "10001",
   },
   {
     id: 37,
@@ -466,7 +466,7 @@ export const VEHICLE_DATA = [
     price: 89000,
     image:
       "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?w=400&h=300&fit=crop",
-    zipCode: "94101",
+    zipCode: "10001",
   },
   {
     id: 38,
@@ -479,7 +479,7 @@ export const VEHICLE_DATA = [
     price: 46000,
     image:
       "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?w=400&h=300&fit=crop",
-    zipCode: "37201",
+    zipCode: "85001",
   },
   {
     id: 39,
@@ -492,7 +492,7 @@ export const VEHICLE_DATA = [
     price: 39000,
     image:
       "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-    zipCode: "37201",
+    zipCode: "10001",
   },
   {
     id: 40,
@@ -505,6 +505,6 @@ export const VEHICLE_DATA = [
     price: 72000,
     image:
       "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&h=300&fit=crop",
-    zipCode: "37201",
+    zipCode: "10001",
   },
 ];
